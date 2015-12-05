@@ -1,0 +1,148 @@
+body {
+    margin: 0 auto;
+    background-image:url(road-not-taken.jpg);
+  
+   
+}
+/*
+    background-size: cover; 
+    background-repeat: no-repeat;
+    overflow: hidden;}
+*/
+
+img {
+    max-width: 100%;}
+
+#wrapper div{
+    width: 100vw;
+    height: 800px;
+    margin: 0 auto;
+    font-family: 'Rock Salt', cursive;
+   
+
+}
+
+
+nav{
+    position:fixed;
+    width: 300px;
+    z-index: 99;
+    background-color: darkolivegreen;
+    color: white;
+ 
+}
+
+
+nav ul li{
+    display:inline-block;
+    padding-right:32px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+}
+
+a{
+    color: white; }
+
+a:hover {
+    color: darkgray;}
+
+#title{
+    position:relative;
+    font-size:38px;
+    top:10%;
+    left:100px;
+    
+}
+
+#name{
+position:relative;
+width: 60%;
+}
+
+h1, h2, p {
+    color: whitesmoke;
+    position: relative;
+  padding-left: 20px;
+    top: 100px;
+    left: 50px; 
+    width: 600px;
+background-color:black}
+
+p{
+    font-size: 24px;} 
+
+#stanzaOne{
+position:relative;
+font-size: 34px;
+width:200px;
+top:50px;
+left:100px;
+}
+
+#oneTwo{
+position:relative;
+top:160px;
+}
+
+#oneThree{
+position:relative;
+top:195px;
+
+}
+
+#oneFour{
+position:relative;
+top:230px;
+
+}
+
+#oneFive{
+position:relative;
+top:265px;
+}
+
+#stanzaTwo{
+position:relative;
+
+font-size: 34px;
+width:200px;
+top:50px;
+left:700px;  
+}
+
+#twoTwo{
+position:relative;
+top:160px;
+}
+
+#twoThree{
+position:relative;
+top:195px;
+}
+
+#twoFour{
+position:relative;
+top:230px;
+}
+
+#twoFive{
+position:relative;
+top:265px;
+}
+
+#stanzaThree{
+position:relative;
+color: darkgray;
+font-size: 34px;
+width:200px;
+top:50px;
+left:400px;  
+}
+
+#stanzaFour{
+position:relative;
+color: darkgray;
+font-size: 34px;
+ width:750px; 
+left:100px;
+}

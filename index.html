@@ -1,0 +1,202 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1">
+<title>The Road Not Taken</title>
+<link rel="stylesheet" type="text/css" href="css/animate.css">
+<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+<link href='https://fonts.googleapis.com/css?family=Permanent+Marker|Rock+Salt' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    
+<!--Begin Nav-->
+<nav>
+    <ul>
+        <a href="#title"><li>1</li></a>
+        <a href="#stanzaOne"><li>2</li></a>
+        <a href="#stanzaTwo"><li>3</li></a>
+        <a href="#stanzaThree"><li>4</li></a>
+        <a href="#stanzaFour"><li>5</li></a>
+    </ul>
+</nav>
+<!--End Nav-->
+
+<div id="wrapper">
+<div id="main">
+
+<!--Title/Menu1-->
+<div class="wow bounceInDown" 
+     id="title">
+    <h1 id="name">The Road Not Taken</h1>
+    <h2 class="author">by Robert Frost</h2>
+    </div>
+
+<!--Stanza1/Menu2-->
+<div class="wow" 
+     id="stanzaOne">
+    
+    <p  class="wow slideInLeft" 
+        data-wow-duration="1s" 
+        data-wow-delay="1s"
+        id="oneTwo">
+        Two roads diverged in a yellow wood,</p>
+    
+    <p  class="wow slideInLeft" 
+        data-wow-duration="1s" 
+        data-wow-delay="2s" 
+        id="oneTwo">
+        And sorry I could not travel both</p>
+    
+    <p  class="wow slideInLeft" 
+        data-wow-duration="1s" 
+        data-wow-delay="3s" 
+        id="oneThree">
+        And be one traveler, long I stood</p>
+    
+    <p  class="wow slideInLeft" 
+        data-wow-duration="1s" 
+        data-wow-delay="4s" 
+        id="oneFour">
+        And looked down one as far as I could</p>
+    
+    <p  class="wow slideInLeft" 
+        data-wow-duration="1s" 
+        data-wow-delay="5s"
+        id="oneFive">
+        To where it bent in the undergrowth;</p>
+    
+    </div>
+
+
+<!--Stanza2/Menu3-->
+<div class="wow" 
+     id="stanzaTwo">
+    
+<p class="wow slideInRight"
+    data-wow-duration="1s" 
+    data-wow-delay="1s"
+    id="twoOne">
+    Then took the other, as just as fair,</p>
+    
+<p class="wow slideInRight"
+    data-wow-duration="1s" 
+    data-wow-delay="2s"
+    id="twoTwo">
+    And having perhaps the better claim,<p>
+    
+<p class="wow slideInRight"
+    data-wow-duration="1s" 
+    data-wow-delay="3s"
+   id="twoThree"> Because it was grassy and wanted wear;</p>
+    
+<p class="wow slideInRight"
+    data-wow-duration="1s" 
+    data-wow-delay="4s"
+    id="twoFour">     
+    Though as for that the passing there</p>
+    
+<p class="wow slideInRight"
+    data-wow-duration="1s" 
+    data-wow-delay="5s"
+    id="twoFive">Had worn them really about the same,</p>
+    
+    </div>
+
+<!--Stanza3/Menu4-->
+<div class="wow" 
+     id="stanzaThree">
+
+<p class="wow bounceInUp"
+    data-wow-duration="1s" 
+    data-wow-delay="2s"
+    id="threeOne">
+    And both that morning equally lay</p>
+        
+<p class="wow bounceInUp" 
+     data-wow-duration="1s" 
+     data-wow-delay="4s" 
+     id="threeTwo">
+    In leaves no step had trodden black.</p>
+    
+<p class="wow bounceInUp" 
+     data-wow-duration="1s" 
+     data-wow-delay="5s" 
+     id="threeThree">    
+    Oh, I kept the first for another day!</p>
+       
+<p class="wow bounceInUp" 
+     data-wow-duration="1s" 
+     data-wow-delay="6s" 
+     id="threeFour">
+    Yet knowing how way leads on to way,</p>
+    
+<p class="wow bounceInUp" 
+     data-wow-duration="1s" 
+     data-wow-delay="7s" 
+     id="threeFive">    
+    I doubted if I should ever come back.</p>
+   
+    </div>
+
+<!--Stanza4/Menu5-->
+<div class="wow" 
+     id="stanzaFour">
+    
+<p class="wow bounceInDown" 
+     data-wow-duration="1s" 
+     data-wow-delay="1s" 
+     id="fourOne">
+        I shall be telling this with a sigh</p>
+        
+<p class="wow bounceInDown" 
+     data-wow-duration="1s" 
+     data-wow-delay="2s" 
+     id="fourTwo">
+    Somewhere ages and ages hence:</p>
+
+<p class="wow bounceInDown" 
+     data-wow-duration="1s" 
+     data-wow-delay="4s" 
+     id="fourThree">
+    Two roads diverged in a wood, and I—</p>
+        
+<p class="wow bounceInDown" 
+     data-wow-duration="1s" 
+     data-wow-delay="5s" 
+     id="fourFour">    
+    I took the one less traveled by,</p>
+        
+<p class="wow bounceInDown" 
+     data-wow-duration="1s" 
+     data-wow-delay="7s" 
+     id="fourFive">
+    And that has made all the difference.</p>
+    
+    </div>
+    
+    
+</div> <!--end main-->
+</div> <!--end wrapper-->
+    
+    
+
+<!--wow.js script-->   
+<script src="wow.min.js"></script>
+<script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100,
+        callback:     function(box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    wow.init();
+
+  </script>
+</body>
+</html>
